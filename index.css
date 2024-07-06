@@ -1,0 +1,254 @@
+.top-bar {
+    top: 0px;
+    background-color: red;
+    height: 12vh;
+    display: flex;
+    position: fixed;
+}
+
+
+body {
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.top-bar-itemone {
+    color: white;
+    display: flex;
+    background-color: black;
+    height: 12vh;
+    width: 800px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.top-bar-itemtwo {
+    color: white;
+    display: flex;
+    background-color: black;
+    height: 12vh;
+    width: 800px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ p {
+    padding-left: 20px;
+}
+
+.middle-bar {
+    color: white;
+    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    flex-direction: column;
+    background-image: url(asset/header-bg.jpg);
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    padding-top: 150px;
+}
+
+.middle-bar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 800px;
+}
+
+.middle-bar-item-two {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 30vh;
+    width: 100%;
+}
+
+.middle-bar-b {
+    width: 200px;
+    color: black;
+    background-image: url(asset/header-bg.jpg);
+    height: 5vh;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.pic-bar {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-bar-item {
+    width: 900px;
+    height: 90vh;
+}
+
+.pic-bar-item-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic-bar-item-two {
+    
+    
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    height: 80vh;
+    width: 500px;
+    border-style: groove;
+    border-width: 0px;
+    border-color: white;
+}
+
+.pic-bar-item-one-one {
+    height: 30vh;
+    text-align: justify;
+    padding-left: 30px;
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+/* .pic-bar-item-one-two {
+    height: 50vh;
+    display: flex; }*/
+
+
+.sub-pic-one {
+    width: 400px;
+}
+
+.sub-pic-two {
+    width: 400px;
+    padding-top: 25px;
+}
+
+
+
+label {
+    font-weight: 700;
+    color: rgb(33, 37, 41);
+    min-width: 100px;
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 30px;
+    background: linear-gradient(90deg, rgb(236, 236, 236) 20%, rgb(255, 255, 255));
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    cursor: default;
+}
+
+ul {
+    list-style-type: square;
+
+}
+
+.focus-head {
+    font-weight: bold;
+}
+
+
+li {
+    
+    margin-bottom: 10px;
+}
+
+.contact-bar {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.nav{
+    color: white;
+}
+
+/* .contact-bar-one {
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: white;
+    background-image: url(asset/header-bg.jpg);
+}
+
+.contact-bar-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    background-image: url(asset/header-bg.jpg);
+}
+
+
+.sub-contact-bar-twotwo {
+    height: 80vh;
+    width: 50%;
+}
+
+/*.contact-input-one {   margin-top: 15px;
+padding-left:-20px; border-radius: 5px;
+ font-size: 1rem;
+  width: 600px; 
+  height: 15vh;}*/
+
+
+/*.contact-input-two {
+    width: 550px;
+    height: 7vh;
+    margin-top: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    align-items: center;
+    width: 180px;
+    height: 7vh;
+    background-color: rgb(25, 126, 160);
+    color: white;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 5px
+}
+
+textarea {
+    height: 15vh;
+    width: 560px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.foot-bar {
+    background-color: black;
+    width: 100%;
+    height: 5vh;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.butt-input {
+    margin-left: 0px;
+    margin-top: 0px;
+}  */
+
